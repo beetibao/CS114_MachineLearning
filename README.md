@@ -27,8 +27,8 @@ Do các dữ liệu có sẵn trên mạng không đáp ứng được ngữ c�
 Việc tự thu thập dữ liệu giúp kiểm soát được các yếu tố ngoại cảnh như góc quay, ánh sáng, khung cảnh... Do vậy, chúng tôi đã đưa ra các tiêu chí để thu thập dữ liệu như sau: 
 - Kích thước hình tối thiểu 918 x 1224 → 4000x3000
 - Vật thể: 
- - Các rác thải sinh hoạt: lon, chai, bao nilon, ly nhựa, hộp xốp, chai thủy tinh...
- - Các rác thải trên có thể bị biến dạng, không xếp chồng lên nhau, nằm ngang hoặc đứng.
+  - Các rác thải sinh hoạt: lon, chai, bao nilon, ly nhựa, hộp xốp, chai thủy tinh...
+  - Các rác thải trên có thể bị biến dạng, không xếp chồng lên nhau, nằm ngang hoặc đứng.
 - Độ sáng: Trời sáng, ánh sáng đủ để nhìn thấy rõ vật thể, không bị chói.
 - Background: Nền gạch đường, bãi lá khô, nền cỏ, ven mép đường, dưới gốc cây…
 - Góc chụp: hướng nhìn từ trên xuống, cách vật thể khoảng 1m, góc camera 45 - 90 độ.
