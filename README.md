@@ -1,6 +1,7 @@
 # CS114 - Nhận diện rác thải sinh hoạt
 ## Danh sách thành viên
 | STT | Họ và tên | MSSV | Email |
+|-----|-------|------|-------|
 | 1 | [Phạm Thiện Bảo] (https://github.com/beetibao)| 20521107 | 20521107@gm.uit.edu.vn |
 | 2 | [Lê Văn Khoa] (https://github.com/Levankhoa150102) | 20521467 | 20521467@gm.uit.edu.vn |
 | 3 | [Lê Nguyễn Tiến Đạt] (https://github.com/lenguyentiendat) | 20521167 | 20521167@gm.uit.edu.vn |
@@ -31,7 +32,7 @@ Việc tự thu thập dữ liệu giúp kiểm soát được các yếu tố n
 - Độ sáng: Trời sáng, ánh sáng đủ để nhìn thấy rõ vật thể, không bị chói.
 - Background: Nền gạch đường, bãi lá khô, nền cỏ, ven mép đường, dưới gốc cây…
 - Góc chụp: hướng nhìn từ trên xuống, cách vật thể khoảng 1m, góc camera 45 - 90 độ.
-Link dataset: [Github](https://drive.google.com/drive/folders/1--Qa6LCG188SyTX5cwfzCBE9V1-eYBOB?usp=sharing)
+Link dataset: [Trash_Dataset](https://drive.google.com/drive/folders/1--Qa6LCG188SyTX5cwfzCBE9V1-eYBOB?usp=sharing)
 
 ## Mô tả về thuật toán máy học
 - Vài năm trở lại đây, object detection là một trong những đề tài quan trọng bởi khả năng ứng dụng cao, dữ liệu dễ chuẩn bị và kết quả ứng dụng rất nhiều. Các thuật toán mới của object detection có thể thực hiện được các tác vụ dường như là real time, thậm chí là nhanh hơn so với con người mà độ chính xác không giảm. Trong đó, YOLO - You Only Look Once có thể không phải là thuật toán tốt nhất nhưng nó là thuật toán nhanh nhất trong các lớp mô hình object detection. Các phiên bản của mô hình này đều có những cải tiến rất đáng kể sau mỗi phiên bản. Chính vì vậy, nhóm thử nghiệm chọn Yolov5 để thực hiện đồ án.
