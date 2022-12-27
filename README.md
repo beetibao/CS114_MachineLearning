@@ -2,9 +2,9 @@
 ## Danh sách thành viên
 | STT | Họ và tên | MSSV | Email |
 |-----|-------|------|-------|
-| 1 | [Phạm Thiện Bảo] (https://github.com/beetibao)| 20521107 | 20521107@gm.uit.edu.vn |
-| 2 | [Lê Văn Khoa] (https://github.com/Levankhoa150102) | 20521467 | 20521467@gm.uit.edu.vn |
-| 3 | [Lê Nguyễn Tiến Đạt] (https://github.com/lenguyentiendat) | 20521167 | 20521167@gm.uit.edu.vn |
+| 1 | [Phạm Thiện Bảo](https://github.com/beetibao) | 20521107 | 20521107@gm.uit.edu.vn |
+| 2 | [Lê Văn Khoa](https://github.com/Levankhoa150102) | 20521467 | 20521467@gm.uit.edu.vn |
+| 3 | [Lê Nguyễn Tiến Đạt](https://github.com/lenguyentiendat) | 20521167 | 20521167@gm.uit.edu.vn |
 
 ## Giới thiệu đề tài
 - Cuộc sống đang ngày càng phát triển hiện đại, đời sống vật chất và tinh thần của người dân được cải thiện rõ rệt. Tuy nhiên, đối lập với nó, tình trạng ô nhiễm môi trường lại có những diễn biến phức tạp và là một vấn đề cấp bách cần phải giải quyết kịp thời. Trong năm 2021, thế giới thải ra 353 triệu tấn rác thải nhựa nhưng lượng rác được tái chế chỉ đạt 9%. Việt Nam nằm trong số 20 quốc gia có lượng rác thải lớn nhất và cao hơn mức trung bình của thế giới. Riêng tại Việt Nam, trung bình mỗi năm lượng rác thải nhựa khoảng 1,8 triệu tấn. Trên thế giới, chỉ có khoảng 19% số rác được tiêu hủy và chỉ gần 50% được chôn lấp tại các hố rác đủ tiêu chuẩn. 
