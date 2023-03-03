@@ -79,9 +79,9 @@ Lý do:
 + Thứ ba, khi muốn đánh giá để có kết quả tốt nhất, người ta thường sử dụng mô hình pretrained có kích thước lớn như Yolov5l,  Yolov5n – phù hợp training trên các thiết bị đám mây. Tuy nhiên, khi sử dụng Yolov5l chúng em xuất hiện hiện tượng tràn bộ nhớ nên không thể tiếp tục đánh giá trên mô hình này. 
 
 ## Hướng phát triển
-+ Về data:
+Về data:
 -	Xây dựng dataset có thêm nhiều loại rác khác 
 -	Tìm hiểu và nghiên cứu thêm về các quy tắc xây dựng dataset để nâng cao chất lượng bộ dữ liệu, gom các loại rác liên quan vào cùng 1 nhóm nhằm giảm thiểu số lớp để học, thuận tiện cho việc xử lý.
-+ Về model:
+Về model:
 -	Tiến hành cài đặt và thử nghiệm trên các đời Yolo mới hơn như v7,v8 
 -	Sử dụng pretrained model phức tạp hơn để train.
