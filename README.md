@@ -36,12 +36,12 @@ Nhiều loại rác bị biến dạng thì mô hình khó có để đưa ra d�
 
 ## Đánh giá
 Để đánh giá model Object detection người ta sử dụng IoU, AP, mAP,….
-- Intersection over Union (IoU) là một số liệu đánh giá được sử dụng để đo độ chính xác trong bài toán phát hiện đối tượng trên một tập dữ liệu cụ thể. Nó sử dụng trong việc đánh giá xem bounding box dự đoán đối tượng khớp với ground truth thật của đối tượng hay không. Chỉ số IoU trong khoảng [0,1] và nếu IoU càng gần 1 thì bounding box dự đoán càng gần ground truth.
-- AP: là chỉ số có quan hệ mật thiết với chỉ số Precision (phần trăm bounding box được dự đoán đúng) và Recall (tỉ lệ phần trăm các bounding box được đoán đều chính xác). 
+- **Intersection over Union (IoU)**: là một số liệu đánh giá được sử dụng để đo độ chính xác trong bài toán phát hiện đối tượng trên một tập dữ liệu cụ thể. Nó sử dụng trong việc đánh giá xem bounding box dự đoán đối tượng khớp với ground truth thật của đối tượng hay không. Chỉ số IoU trong khoảng [0,1] và nếu IoU càng gần 1 thì bounding box dự đoán càng gần ground truth.
+- **AP**: là chỉ số có quan hệ mật thiết với chỉ số Precision (phần trăm bounding box được dự đoán đúng) và Recall (tỉ lệ phần trăm các bounding box được đoán đều chính xác). 
   + AP50: là độ chính xác với IoU = 0.5 
   + AP75: là độ chính xác với IoU = 0.75
 Khi quá trình training kết thúc, ta sẽ có được các kết prediction của mỗi vật thể trong hình. Thông qua quá trình tính toán IoU để đo độ chính xác dự đoán, ta tính được giá trị TP, FP, FN. Từ đó dễ dàng tính được thông số của Precision và Recall. Hai giá trị này nhằm để vẽ được biểu đồ Precision – Recall Curve, áp dụng công thức tính để tìm được AP cho từng class.
-- mAP: Bài toán có một hoặc nhiều class, mỗi class ta sẽ tiến hành đo AP, sau đó lấy trung bình tất cả các giá trị AP của các class thì ta tìm được chỉ số mAP của mô hình. Do đó, mAP được hiểu là giá trị trung bình của các tất cả các class.
+- **mAP**: Bài toán có một hoặc nhiều class, mỗi class ta sẽ tiến hành đo AP, sau đó lấy trung bình tất cả các giá trị AP của các class thì ta tìm được chỉ số mAP của mô hình. Do đó, mAP được hiểu là giá trị trung bình của các tất cả các class.
   + **mAP@.5**: có nghĩa là mAP trung bình khi chọn IoU = 0.5
 Ví dụ: mAP@0.5 = 0.7  Tại IoU = 0.5, AP của mô hình là 70%.
   + **mAP@[.5:.95]** có nghĩa là mAP trung bình trên các ngưỡng IoU khác nhau, từ 0,5 đến 0,95 ,bước nhảy 0,05.
@@ -57,6 +57,7 @@ Người ta thường chọn khoảng IoU từ **[.5:.95]** bởi vì rất khó
 - Background: Nền gạch đường, bãi lá khô, nền cỏ, ven mép đường, dưới gốc cây, quanh bãi rác…
 - Góc chụp: hướng nhìn từ trên xuống, cách vật thể khoảng 1m, không quá 2m.
 Dataset sẽ được chia thành 3 tập train, valid, test với tỉ lệ 70:15:15, tương ứng với 1200:150:150 ảnh, các ảnh được chia đảm bảo ở mỗi tập đều có đầy đủ các class.
+
 Link dataset: [Trash_Dataset](https://drive.google.com/drive/folders/1Q8_Lf4WAmG5liwTWXvCyb0F4seT4MOHF?usp=sharing)
 
 ## Mô tả về thuật toán máy học
@@ -82,6 +83,7 @@ Lý do:
 Về data:
 -	Xây dựng dataset có thêm nhiều loại rác khác 
 -	Tìm hiểu và nghiên cứu thêm về các quy tắc xây dựng dataset để nâng cao chất lượng bộ dữ liệu, gom các loại rác liên quan vào cùng 1 nhóm nhằm giảm thiểu số lớp để học, thuận tiện cho việc xử lý.
+
 Về model:
 -	Tiến hành cài đặt và thử nghiệm trên các đời Yolo mới hơn như v7,v8 
 -	Sử dụng pretrained model phức tạp hơn để train.
