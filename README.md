@@ -9,7 +9,7 @@
 # Nhận diện và phân loại rác thải sinh hoạt - Trash Classification
 ## Danh sách thành viên
 | STT | Họ và tên | MSSV | Email |
-|-----|-------|------|-------|
+|:-----:|:-------:|:------:|:-------:|
 | 1 | [Phạm Thiện Bảo](https://github.com/beetibao) | 20521107 | 20521107@gm.uit.edu.vn |
 | 2 | [Lê Văn Khoa](https://github.com/Levankhoa150102) | 20521467 | 20521467@gm.uit.edu.vn |
 | 3 | [Lê Nguyễn Tiến Đạt](https://github.com/lenguyentiendat) | 20521167 | 20521167@gm.uit.edu.vn |
