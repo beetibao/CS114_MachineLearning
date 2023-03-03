@@ -6,7 +6,8 @@
 <h1 align="center">
     CS114.N11.KHCL - Máy Học
 </h1>
-## Đề tài: Nhận diện và phân loại rác thải sinh hoạt - Trash Classification
+
+# Đề tài: Nhận diện và phân loại rác thải sinh hoạt - Trash Classification
 ## Danh sách thành viên
 | STT | Họ và tên | MSSV | Email |
 |:-----:|:-------:|:------:|:-------:|
